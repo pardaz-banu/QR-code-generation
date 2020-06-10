@@ -14,13 +14,15 @@ First to generate a QR code you should have qrcode module installed in the syste
 If qrcode module is not installed, install it using pip command. Use the followwing command in the command prompt
  
     pip install qrcode
+
 In the following code, make() generates the qrcode and stores in im variable
 the image generated we save in the system in the name 'qr.png' in png formate
 You can find the your QR code image in the directory you saved your code. 
+Data can be any video or text or any file. For any data QR will be generated.
 '''
+
 import qrcode
 
 im = qrcode.make("any data here !")  # can keep any data
 
 im.save("qr.png", "PNG")
-
