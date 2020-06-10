@@ -2,12 +2,11 @@
 ''' 
 What is QR code ? 
 A Quick Response code is a two-dimensional pictographic code used for its fast readability and comparatively large storage capacity. 
-The code consists of black modules arranged in a square pattern on a white background. The information encoded can be made up of any kind
-of data (e.g., binary, alphanumeric, or Kanji symbols).
+The code consists of black modules arranged in a square pattern on a white background. The information encoded can be made up of any kind of data (e.g., binary, alphanumeric, or Kanji symbols).
 
 -------------------------
 Now let's see how to generate QR code  using python .
-It's very simple to generate the QR code by importing qrcode module. 
+It is very easy to generate the QR code by using python in just two simple steps
 
 First to generate a QR code you should have qrcode module installed in the system. 
 
